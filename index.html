@@ -52,10 +52,17 @@
       border: none;
       cursor: pointer;
     }
-
+    
+    .features {
+      display: flex;
+      justify-content: space-around;
+      background-color: #111;
+    }
+    
     .feature {
       text-align: center;
-      padding: 50px;
+      padding: 20px;
+      width: 30%;
       color: #333;
     }
 
@@ -113,40 +120,26 @@
   <section id="intro" class="intro">
     <h1>MyAI</h1>
     <p>Gain Insights from pdf's, youtube videos and web urls: Upload files, Query, Get instance response! Welcome to your Custom GPT</p>
-    <button>Explore Now</button>
+    <a href="https://youtu.be/A8UYSwneuS8" class="btn btn-primary">Explore Now</a>
   </section>
 
-  <section id="feature" class="feature">
-    <h2>Key Features</h2>
-
-    <!-- Feature 1: Chat -->
-    <div>
+  <section id="features" class="features">
+    <div class="feature">
+      <iframe width="100%" height="200" src="https://www.youtube.com/embed/qVkmMc_UQCs" frameborder="0" allowfullscreen></iframe>
       <h3>Chat</h3>
       <p>Interactive chat where users can ask questions and receive responses about uploaded files.</p>
-      <video controls>
-        <source src="https://youtube.com/shorts/qVkmMc_UQCs?feature=share.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
     </div>
 
-    <!-- Feature 2: Clear History -->
-    <div>
+    <div class="feature">
+      <iframe width="100%" height="200" src="https://www.youtube.com/embed/BIvKR3PdzkM" frameborder="0" allowfullscreen></iframe>
       <h3>Clear History</h3>
-      <p>Clears history and begins a fresh chat.</p>
-      <video controls>
-        <source src="https://youtube.com/shorts/BIvKR3PdzkM?feature=share.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      <p>Clears chat history and starts a fresh chat session.</p>
     </div>
 
-    <!-- Feature 3: Upload Files -->
-    <div>
+    <div class="feature">
+      <iframe width="100%" height="200" src="https://www.youtube.com/embed/nGcWpKMOwCQ" frameborder="0" allowfullscreen></iframe>
       <h3>Upload Files</h3>
       <p>Allows users to upload files for processing.</p>
-      <video controls>
-        <source src="https://youtube.com/shorts/nGcWpKMOwCQ?feature=share.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
     </div>
   </section>
 
